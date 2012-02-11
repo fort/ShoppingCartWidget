@@ -1,0 +1,60 @@
+.alionpaycart-widget-wrapper {
+	position: absolute;
+}
+
+/*HEADER*/
+.alionpaycart-widget-arrow {
+	height: 12px;
+	border: 0;
+}
+.alionpaycart-widget-header {
+	background-color:#BFFBB0;
+}
+
+/*CONTENT*/
+.alionpaycart-widget-content {
+	border-style: solid;
+	border-color: #BFFBB0;
+}
+
+.alionpaycart-widget-emptymessage{
+
+}
+.alionpaycart-widget-qty-field{
+	width: 40px;
+    text-align: center;
+}
+.alionpaycart-widget-title{
+
+}
+.alionpaycart-widget-image{
+	border: none;
+	width: 40px;
+	height: 40px;
+}
+.alionpaycart-widget-price{
+
+}
+.alionpaycart-widget-bnt-remove{
+
+}
+
+/*FOOTER*/
+.alionpaycart-widget-footer{
+	background-color:#BFFBB0;
+}
+
+.alionpaycart-widget-footer td.right {
+	float: right;
+}
+
+.alionpaycart-widget-footer-subtotal{
+	display: inline-block;
+}
+.alionpaycart-widget-subtotal-message{
+
+}
+.alionpaycart-widget-btn-checkout{
+	display:none;
+	width: 80px;
+}

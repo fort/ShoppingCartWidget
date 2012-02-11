@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title> Shopping cart widget </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>	
+		<style>
+		  .product-image { border:solid 1px #ccc; }
+		  .product-title, .product-price, .product-shipping { font-weight:bold; }
+		  .data-cell { padding:0px 50px 0px 10px;border:solid 0px #fff;vertical-align:top}
+		  .align-cart { padding-left:480px }
+		  
+			.alionpaycart-add-button {
+				background-color:#FF5D3C;
+			}
+		</style>
+<table border="0">
+	<tr>
+		<td>
+			<table>
+			  <tr class="product">
+				<td><img class="product-image" 
+				  src="./images/product1.jpg"/>
+				</td>
+				<td class="data-cell">
+				  <div class="product-title">Notebook</div>
+				  <div class="product-price">Price: $12.99</div>
+				  <div class="alionpaycart-add-button">
+					Add to cart
+				  </div>
+				</td>
+			  </tr>
+			  
+			  <tr class="product">
+				<td><img class="product-image" 
+				  src="./images/product2.jpg"/>
+				</td>
+				<td class="data-cell">
+				  <div class="product-title">Monitor</div>
+				  <div class="product-price">Price: $9.99</div>
+				  <div class="alionpaycart-add-button">
+					Add to cart
+				  </div>
+				</td>
+			  </tr>
+			  
+			  <tr class="product">
+				<td><img class="product-image" 
+				  src="./images/product3.jpg"/>
+				</td>
+				<td class="data-cell">
+				  <div class="product-title">Photocamera</div>
+				  <div class="product-price">Price: $1.32</div>
+				  <div class="alionpaycart-add-button">
+					Add to cart
+				  </div>
+				</td>
+			  </tr>
+			</table>
+		 </td>
+		 
+		<td width="100%" valign="top">
+				<div id="alionpaycart-widget">
+<!--	
+					<div id="alionpaycart-widget-control">
+						View Cart (<span id="alionpaycart-widget-subtotal"></span>  -  <span id="alionpaycart-widget-item-count"></span>)
+					</div>
+-->
+				</div>
+				<script type="text/javascript" id="alionpaycart-script" src="http://<?=$_SERVER['HTTP_HOST']?>/cart/2cart.js"
+						 shop_id  = "23"
+						 currency = "USD"
+						 lang 	  = "en"
+						 close_cart_when_click_away="false"
+						 highlight_time = "500"
+						 highlight_color = "#D27967"
+				 >
+				</script>
+		</td>
+	</tr>
+</table>
+		
+</body>
+</html>
