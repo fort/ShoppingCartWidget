@@ -298,7 +298,7 @@ var alionpayCartWidgetConfig  = function(options){
 
 var globalConfig = function() {
 	function getBaseUrl(){
-		return 'http://aiop.loc/cart';
+		return 'http://jscart.loc';
 	}
 	
 	this.globalConfig = {
